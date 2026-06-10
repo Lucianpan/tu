@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="第 1 页" id="Ujt2ezB3X3MQU_-e_azZ">
+    <mxGraphModel dx="2054" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="yaml文件" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-3" edge="1" parent="1" source="8dVpRfKHYw5MatlEMVgu-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="380" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-8" edge="1" parent="1" source="8dVpRfKHYw5MatlEMVgu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-10" edge="1" parent="1" source="8dVpRfKHYw5MatlEMVgu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8dVpRfKHYw5MatlEMVgu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="文件读取" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-16" edge="1" parent="1" source="8dVpRfKHYw5MatlEMVgu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8dVpRfKHYw5MatlEMVgu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="文件处理" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;判断文件格式 是否符合标注&lt;/span&gt;" vertex="1">
+          <mxGeometry height="45" width="110" x="510" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="前置操作类" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="后置操作类" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="断言处理" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="文件运行" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提取前置操作" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提取接口url\hearders" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提取断言" vertex="1">
+          <mxGeometry height="30" width="60" x="710" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="提取后置操作" vertex="1">
+          <mxGeometry height="30" width="60" x="827" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="api运行器" vertex="1">
+          <mxGeometry height="60" width="120" x="1100" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="全局操作" vertex="1">
+          <mxGeometry height="30" width="60" x="970" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="多用例执行" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="8dVpRfKHYw5MatlEMVgu-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="单用例执行" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="815" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lBysgLj3DhLm-oK6a68o" name="第 2 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
