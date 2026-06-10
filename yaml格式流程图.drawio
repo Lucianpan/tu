@@ -77,10 +77,46 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lBysgLj3DhLm-oK6a68o" name="第 2 页">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="配置层" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="工具层" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="驱动层" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业务层" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="用例层" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-12" edge="1" parent="1" source="C2L7bf1eXnhqYFwLQpll-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="C2L7bf1eXnhqYFwLQpll-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-13" edge="1" parent="1" source="C2L7bf1eXnhqYFwLQpll-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;curved=1;" target="C2L7bf1eXnhqYFwLQpll-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UI" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="yaml" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="代码格式" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="C2L7bf1eXnhqYFwLQpll-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="接口" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="430" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
